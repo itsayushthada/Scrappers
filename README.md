@@ -5,7 +5,7 @@ To scrap data from twitter, you first install tweepy. It can be directly downloa
                 *pip install tweepy*
 provided pip is installed.<br/>
 
-* Go to apps.twitter.com
+* Go to https://developer.twitter.com/en/apps
 * Sign in with your Twitter Account.
 * Select *Create New App* button and then fill the details.
 * A dialog bos will appear with heading *Access Token*. Select *Create my access Token*.
