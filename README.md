@@ -25,4 +25,8 @@ I've used this script for my Data and Information Visualization project.
 
 ### 3. User Agents Mining
 The User-Agent request header contains a characteristic string that allows the network protocol peers to identify the application type, operating system, software vendor or software version of the requesting software user agent. While sending the requests different user agents can be used to simulate the requests from the diffrent environments.<br><br>
+
 I've written a script to parallely scrap the user agents from internet. Kindly adjust the number of process with respect to your no of cores and the hyper threading status. I'll add addition bash scripts to bind the process with CPU to prevent the time loss due to context switch.
+
+### 4. Weights Fetching From the Torrent Networks
+While working on a distributed learning environment, I've tried to store the weights of the different parts of the Neural Network on different Computing Nodes. Hence when the learning gets over, weightsfetecher.py script downloads the weights fro all the distributed locations where ever this script is invoked. It requires a Magnet link to initiate the down also all the different model weights files. For more peer to peer networking can be found on [Source Paper](http://web.cs.ucla.edu/classes/cs217/05BitTorrent.pdf)
